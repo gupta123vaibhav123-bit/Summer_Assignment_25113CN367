@@ -16,7 +16,7 @@ for (int i=2;i<=num;i++)
         a=b;
         b=c;
         }
-      printf("\n:%d",c);
+      printf("\n%d",c);
     }
 printf("\n");
     return 0;
