@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int i,j,n,a[100],k;
-    printf("enter the no");
+    printf("enter the no: ");
     scanf("%d",&n);
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
@@ -15,14 +15,10 @@ int main(){
                 n--;
                 j--;
             }
-
-
         }
     }
     for(i=0;i<n;i++){
         printf("%d\t",a[i]);
     }
-
     return 0;
-
 }
